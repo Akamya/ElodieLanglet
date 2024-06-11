@@ -1,0 +1,28 @@
+@media screen and (max-width: 729px) {
+  .featured,
+  .galerie {
+    grid-column: span 12;
+  }
+
+  .galerie {
+    order: 1;
+  }
+
+  .featured {
+    order: 2;
+    height: 30em;
+  }
+
+  .about,
+  .location {
+    grid-column: span 12;
+  }
+
+  .about {
+    order: 1;
+  }
+
+  .location {
+    order: 2;
+  }
+}
